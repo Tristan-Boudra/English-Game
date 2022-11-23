@@ -2,6 +2,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Raleway-bold';
+    src: url('./static/Raleway-Bold.ttf');
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -89,6 +94,8 @@ nav {
         h1{
             font-size: 20px;
             font-weight: bold;
+            font-family: 'Raleway-bold';
+            color: red;
         }
 
         .contact{
