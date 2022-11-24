@@ -116,7 +116,7 @@
         correctAnswer: "d"
       },
       {
-        question: "6. What is the carbon footprint of an email with large attachments?",
+        question: "6. What is the carbon footprint of an email with large attachments ? (gm Co2)",
         answers: {
           a: "25",
           b: "50",
