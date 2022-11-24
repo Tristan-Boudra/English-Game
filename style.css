@@ -5,22 +5,22 @@
 @font-face {
   font-family: "Migha";
   font-weight: 900;
-  src: url("./static/Migha-Bold.otf") format("opentype");
+  src: url("./fonts/static/Migha-Bold.otf") format("opentype");
 }
 @font-face {
   font-family: "Raleway-semi-bold";
   font-weight: 600;
-  src: url("./static/Raleway-SemiBold.ttf") format("truetype");
+  src: url("./fonts/static/Raleway-SemiBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Raleway-light";
   font-weight: 600;
-  src: url("./static/Raleway-Light.ttf") format("truetype");
+  src: url("./fonts/static/Raleway-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "Raleway-bold";
   font-weight: 600;
-  src: url("./static/Raleway-Bold.ttf") format("truetype");
+  src: url("./fonts/static/Raleway-Bold.ttf") format("truetype");
 }
 nav {
   display: flex;
