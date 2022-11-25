@@ -97,6 +97,13 @@ nav {
     }
 }
 
+.logo2{
+    width: 350px;
+    height: 300px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
 .container-contact{
     background-color: #D9D9D9;
     display: flex;
@@ -322,6 +329,12 @@ footer{
     margin-right: 160px;
     margin-bottom: -100px;
     min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-eco-life2{
+    width: auto;
 }
 
 .section1 h1{
@@ -377,7 +390,7 @@ footer{
 }
 
 .section2 .gauche{
-    border: solid 2px #3F3F3F;
+    border: solid 1px #3F3F3F;
     border-top: none;
     border-bottom: none;
     text-align: center;
@@ -385,6 +398,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    // border: solid 2px rgba(63, 63, 63 .5);
 } 
 
 .section2 .droite{
@@ -405,11 +419,15 @@ footer{
 }
 
 .createurs {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 100px;
-    grid-row-gap: 0px;
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    // grid-template-rows: 1fr;
+    // grid-column-gap: 100px;
+    // grid-row-gap: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
 }
 
 .section3{
@@ -455,14 +473,16 @@ footer{
 }
 
 .regles .droite img{
-    width: 30%;
+    width: 250px;
+    height: 200px;
+    transform: rotate(-90deg);
 }
 
 .regles .droite{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px #3F3F3F;
+    border: solid 2px rgba(63, 63, 63 .5);
     border-right: none;
     text-align: center;
     display: flex;
@@ -532,4 +552,144 @@ footer{
 
 .section5 .column-regles .gauche .haut{
     margin-bottom: 60px;
+}
+
+@media screen and (max-width: 767px){
+    .createurs{
+        flex-direction: column;
+    }
+
+    .bouton{
+        width: 35%;
+    }
+
+    .regles{
+        display: flex;
+        flex-direction: column;
+    }
+    .regles .gauche{
+        border: none;
+    }
+
+    .regles .droite{
+        border: none;
+    }
+
+    .section1{
+        margin: 20px;
+    }
+
+    .section2 .parent{
+        margin: 20px;
+    }
+
+    .section3{
+        margin: 20px;
+    }
+
+    .section4{
+        margin: 20px;
+    }
+
+    .section5{
+        height: 1600px;
+    }
+
+    .section5 .column-regles{
+        margin: 20px;
+    }
+
+    .section5 .column-regles .gauche{
+        width: 90%;
+        padding-right: 0;
+    }
+    
+
+    .body{
+        width: 188%;
+    }
+
+    .column-regles{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 .gauche{
+        display: none;
+    }
+
+    .container-contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-contact .container-contact-right{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    footer .container-footer{
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+
+    .container-buy{
+        transform: translate(0);
+    }
+
+    footer .container-footer .container-footer-left{
+        border: none;
+        margin-right: 0px;
+    }
+
+    footer .container-footer .container-footer-right{
+        border: none;
+    }
+
+    .container-contact .container-contact-left input{
+        width: 80%;
+    }
+
+    .section5 .column-regles .gauche{
+        border: none;
+    }
+    
+    .section5 .column-regles .droite{
+        border: none;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .regles .droite{
+        
+    }
+
+    .section4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .container-buy{
+        transform: none;
+    }
+
+    .container-left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav .container-left{
+        margin-left: 0px;
+    }
+
+    nav .nav-links{
+        flex-direction: column;
+    }
+
+    footer .container-footer .container-footer-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
